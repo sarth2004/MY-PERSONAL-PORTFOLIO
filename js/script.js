@@ -129,3 +129,6 @@ mybutton.addEventListener("click", function () {
 function scrollToSkills() {
   document.getElementById("about").scrollIntoView({ behavior: "smooth" });
 }
+function scrollToContacts() {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+}
